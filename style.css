@@ -51,11 +51,14 @@ button {
 
 .header {
     justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .logo {
+    font-size: 24px;
+    color: #F9FAF8;
     font-weight: bold;
-    font-size:larger
 }
 
 .footer {
@@ -107,6 +110,20 @@ button {
     background-color: grey;
     padding: 1em;
     align-items: center;
+}
+
+.content-info {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    align-items: center;
+}
+
+.info-title {
+    font-family: 'robotobold';
+    font-size: 36px;
+    margin: 20px;
 }
 
 .content-quote {

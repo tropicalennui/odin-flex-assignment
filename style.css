@@ -62,6 +62,17 @@ li {
     padding-bottom: 75px;
 }
 
+.blurb-left,
+.blurb-right {
+    display: flex;
+    flex: 1;
+}
+
+.blurb-left {
+    display: flex;
+    flex-direction: column;
+}
+
 .blurb-left-header {
     font-family: 'robotobold';
     font-size: 48px;

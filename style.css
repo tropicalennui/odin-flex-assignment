@@ -27,14 +27,26 @@ li {
     margin: 10px;
   }
 
+button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    border: 0;
+}
+
 .header,
 .content-blurb,
 .footer {
     background-color: #1F2937;
     display: flex;
     align-items: center;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .header {
@@ -60,17 +72,21 @@ li {
 .content-blurb {
     padding-top: 75px;
     padding-bottom: 75px;
+    align-items: stretch;
 }
 
 .blurb-left,
 .blurb-right {
     display: flex;
     flex: 1;
+    justify-content: center;
 }
 
 .blurb-left {
     display: flex;
     flex-direction: column;
+    padding-right: 50px;
+    align-items: flex-start;
 }
 
 .blurb-left-header {
@@ -81,6 +97,16 @@ li {
 .blurb-left-content {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.blurb-left-button {
+    margin-top: 10px;
+}
+
+.blurb-right {
+    background-color: grey;
+    padding: 1em;
+    align-items: center;
 }
 
 .content-quote {

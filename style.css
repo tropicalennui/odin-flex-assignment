@@ -11,7 +11,10 @@ body {
     background-color: black;
     color: white;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    width: 1200px;
+    margin: auto;
 }
 
 ul {
@@ -22,13 +25,6 @@ ul {
 li {
     margin: 10px;
   }
-
-.page {
-    width: 900px;
-    display: flex;
-    flex-direction: column;
-    border: 1px solid lime;
-}
 
 .header,
 .footer {
@@ -47,4 +43,30 @@ li {
     justify-content: center;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-quote {
+    background-color: #E5E7EB;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quote {
+    color: #1F2937;
+    font-family: 'robotolight_italic', Arial, sans-serif;
+    font-size: 36px;
+}
+
+.attribution {
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    font-weight: bold;
 }

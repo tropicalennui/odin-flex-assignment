@@ -20,6 +20,7 @@ body {
 ul {
     list-style-type: none;
     display: flex;
+    font-size: small;
 }
 
 li {
@@ -27,6 +28,7 @@ li {
   }
 
 .header,
+.content-blurb,
 .footer {
     background-color: #1F2937;
     display: flex;
@@ -39,6 +41,11 @@ li {
     justify-content: space-between;
 }
 
+.logo {
+    font-weight: bold;
+    font-size:larger
+}
+
 .footer {
     justify-content: center;
     padding-top: 20px;
@@ -48,6 +55,21 @@ li {
 .content {
     display: flex;
     flex-direction: column;
+}
+
+.content-blurb {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.blurb-left-header {
+    font-family: 'robotobold';
+    font-size: 48px;
+}
+
+.blurb-left-content {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .content-quote {

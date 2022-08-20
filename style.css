@@ -20,7 +20,6 @@ body {
 ul {
     list-style-type: none;
     display: flex;
-    font-size: small;
 }
 
 li {
@@ -97,7 +96,8 @@ button {
     font-size: 48px;
 }
 
-.blurb-left-content {
+.blurb-left-content,
+ul {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -118,6 +118,7 @@ button {
     background-color: white;
     color: black;
     align-items: center;
+    padding-bottom: 70px;
 }
 
 .info-title {
@@ -145,4 +146,29 @@ button {
     justify-content: flex-end;
     color: black;
     font-weight: bold;
+}
+
+.content-action {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.action {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 5px;
+}
+
+.action-text-header {
+    font-family: 'robotobold';
+    font-size: 18px;
+}
+
+.action-button {
+    border: 2px solid white;
 }
